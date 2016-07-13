@@ -23,9 +23,9 @@ public class TapGame : MonoBehaviour {
 		// Provide win condition.
 		if (currentPoints >= 15) {
 			myTextObject2.text = "Congratulations, you win!";
-
-			if (Input.GetKeyDown ((KeyCode.y)){
-				currentPoints += 500;
+		}
+		if (Input.GetKeyDown ((KeyCode.Y))) {
+			currentPoints += 500;
 		}
 	}
 }
